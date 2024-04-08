@@ -6,7 +6,15 @@ CREATE TABLE `alunni` (
 
 INSERT INTO `alunni` (`id`, `nome`, `cognome`) VALUES
 (1, 'claudio', 'benve'),
-(2, 'ivan', 'bruno');
+(2, 'ivan', 'bruno'),
+(3, 'fabio', 'rossi'),
+(4, 'lucas', 'gialli'),
+(5, 'gab', 'verdi'),
+(6, 'jonny', 'neri'),
+(7, 'pippo', 'blu'),
+(8, 'giorgio', 'viola'),
+(9, 'matteo', 'marroni'),
+(10, 'willy', 'ocra');
 
 ALTER TABLE `alunni`
 ADD PRIMARY KEY (`id`);
